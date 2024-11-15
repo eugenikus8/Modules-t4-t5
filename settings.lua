@@ -154,7 +154,7 @@ data:extend{
         setting_type = 'startup',
         type = 'double-setting',
         order = 'd[quality]-d[quality-module-4]',
-        default_value = 0.30,
+        default_value = 0.35,
         minimum_value = 0.25,
         maximum_value = 10
        },
@@ -163,7 +163,7 @@ data:extend{
         setting_type = 'startup',
         type = 'double-setting',
         order = 'd[quality]-d[quality-module-5]',
-        default_value = 0.35,
+        default_value = 0.50,
         minimum_value = 0.25,
         maximum_value = 10
     },
@@ -171,7 +171,7 @@ data:extend{
         name = 't4-modules-quality-item-effect-speed',
         setting_type = 'startup',
         type = 'double-setting',
-        order = 'd[quality]-d[quality-module-4]',
+        order = 'd[quality]-e[quality-module-4]',
         default_value = -0.05,
         minimum_value = -0.05,
         maximum_value = 10
@@ -180,7 +180,7 @@ data:extend{
         name = 't5-modules-quality-item-effect-speed',
         setting_type = 'startup',
         type = 'double-setting',
-        order = 'd[quality]-d[quality-module-5]',
+        order = 'd[quality]-e[quality-module-5]',
         default_value = -0.05,
         minimum_value = -0.05,
         maximum_value = 10
