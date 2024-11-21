@@ -63,7 +63,7 @@ data:extend({technology})
 if mods["space-age"] then
    table.insert(recipe.ingredients, {type = "item", name = "tungsten-carbide", amount = 1})
 
-   technology.unit.count = 750
+   technology.unit.count = 2000
    technology.unit.ingredients = {
       {"automation-science-pack", 1},
       {"logistic-science-pack", 1},
