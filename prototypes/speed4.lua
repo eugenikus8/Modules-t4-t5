@@ -66,8 +66,6 @@ if mods["space-age"] and mods["SpaceAgeWithoutSpace"] then
       {"automation-science-pack", 1},
       {"logistic-science-pack", 1},
       {"chemical-science-pack", 1},
-      {"production-science-pack", 1},
-      {"utility-science-pack", 1},
       {"metallurgic-science-pack", 1},
       {"electromagnetic-science-pack", 1},
    }
