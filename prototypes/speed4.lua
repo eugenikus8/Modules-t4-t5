@@ -61,18 +61,15 @@ data:extend({technology})
 if mods["space-age"] and mods["SpaceAgeWithoutSpace"] then
    table.insert(recipe.ingredients, {type = "item", name = "tungsten-carbide", amount = 1})
 
-   unit = {
-      count = 2000,
-      ingredients = {
-         {"automation-science-pack", 1},
-         {"logistic-science-pack", 1},
-         {"chemical-science-pack", 1},
-         {"production-science-pack", 1},
-         {"utility-science-pack", 1},
-         {"metallurgic-science-pack", 1},
-         {"electromagnetic-science-pack", 1},
-      },
-      time = 60
+   technology.unit.count = 2000
+   technology.unit.ingredients = {
+      {"automation-science-pack", 1},
+      {"logistic-science-pack", 1},
+      {"chemical-science-pack", 1},
+      {"production-science-pack", 1},
+      {"utility-science-pack", 1},
+      {"metallurgic-science-pack", 1},
+      {"electromagnetic-science-pack", 1},
    }
 end
 
