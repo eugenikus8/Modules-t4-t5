@@ -4,5 +4,9 @@ require("prototypes.productivity4")
 require("prototypes.productivity5")
 require("prototypes.speed4")
 require("prototypes.speed5")
-require("prototypes.quality4")
-require("prototypes.quality5")
+
+if mods["quality"] then
+   require("prototypes.quality4")
+   require("prototypes.quality5")
+end
+

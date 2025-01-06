@@ -10,8 +10,12 @@ item.effect =
    {
       speed = settings.startup["t4-modules-speed-item-effect-speed"].value,
       consumption = settings.startup["t4-modules-speed-item-effect-consumption"].value,
-      quality = settings.startup["t4-modules-speed-item-effect-quality"].value
    }
+
+   if mods["quality"] then
+      item.effect.quality = settings.startup["t4-modules-speed-item-effect-quality"].value
+   end
+
 table.insert(container, item)
 data:extend(container)
 

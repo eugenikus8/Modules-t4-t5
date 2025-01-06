@@ -36,25 +36,7 @@ data:extend{
         minimum_value = 0.5,
         maximum_value = 10
     },
-	{
-        name = 't4-modules-speed-item-effect-quality',
-        setting_type = 'startup',
-        type = 'double-setting',
-        order = 'a[speed]-c[quality]',
-        default_value = -0.30,
-        minimum_value = -10,
-        maximum_value = 10
-    },
-	{
-        name = 't5-modules-speed-item-effect-quality',
-        setting_type = 'startup',
-        type = 'double-setting',
-        order = 'a[speed]-c[quality]',
-        default_value = -0.35,
-        minimum_value = -10,
-        maximum_value = 10
-    },
-	
+
 --modules-efficiency
 	{
         name = 't4-modules-efficiency-item-effect-consumption',
@@ -185,5 +167,27 @@ data:extend{
         minimum_value = -0.05,
         maximum_value = 10
     },
-
 }
+
+if mods["quality"] then
+   data:extend{
+      {
+            name = 't4-modules-speed-item-effect-quality',
+            setting_type = 'startup',
+            type = 'double-setting',
+            order = 'a[speed]-c[quality]',
+            default_value = -0.30,
+            minimum_value = -10,
+            maximum_value = 10
+      },
+      {
+            name = 't5-modules-speed-item-effect-quality',
+            setting_type = 'startup',
+            type = 'double-setting',
+            order = 'a[speed]-c[quality]',
+            default_value = -0.35,
+            minimum_value = -10,
+            maximum_value = 10
+      },
+   }
+end
